@@ -33,6 +33,9 @@
        padding:12px 22px;border-radius:999px;border:2px solid var(--blue);transition:background .15s}
   .btn-ghost:hover,.btn-ghost:focus-visible{background:var(--blue-soft)}
   .btn-sm{padding:8px 16px;font-size:14px}
+  .hero .ctas{gap:8px;flex-wrap:nowrap}
+  .hero .ctas a{padding:9px 14px;font-size:13px;white-space:nowrap}
+  @media (min-width:600px){.hero .ctas{gap:12px}.hero .ctas a{padding:11px 20px;font-size:15px}}
   .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
   h1,h2,h3{color:var(--blue);margin:0;line-height:1.15}
   .hero{padding:28px 0 8px}
@@ -75,6 +78,9 @@
   .close h2{font-size:clamp(24px,4.6vw,32px)}
   .close .ctas{justify-content:center}
   footer{text-align:center;color:var(--sub);font-size:14px;padding:48px 0 36px}
+  .li{display:inline-block;margin-top:10px;color:var(--blue);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+  .more{margin:16px 0 0;font-size:15px;color:var(--sub)}
+  .more a{color:var(--blue);font-weight:700;text-underline-offset:3px}
   @media (min-width:700px){
     .cards{grid-template-columns:repeat(3,minmax(0,1fr))}
     .stats{grid-template-columns:repeat(3,minmax(0,1fr))}
@@ -96,8 +102,9 @@
         <span class="answer"><span class="nowrap">I can</span> help with that.</span></h1>
       <p>I build the operations behind growing businesses from the ground up, then scale them as you grow. I've done it from nothing at Gusto, Salsa, and Lumber, and I'll do the same for you.</p>
       <div class="ctas">
-        <a class="btn" href="https://calendly.com/kris-kealoha-giron/free-30-min-operations-call" target="_blank" rel="noopener">Book a free 30 min call</a>
+        <a class="btn" href="https://calendly.com/kris-kealoha-giron/free-30-min-operations-call" target="_blank" rel="noopener">Book a free call</a>
         <a class="btn-ghost" href="mailto:kris.kealoha.giron@gmail.com?subject=Operations%20help">Email me</a>
+        <a class="btn-ghost" href="https://www.linkedin.com/in/krisgiron" target="_blank" rel="noopener" aria-label="Connect with me on LinkedIn">LinkedIn</a>
       </div>
     </div>
 
@@ -194,10 +201,12 @@
         <a class="btn" href="https://calendly.com/kris-kealoha-giron/free-30-min-operations-call" target="_blank" rel="noopener">Book a free 30 min call</a>
         <a class="btn-ghost" href="mailto:kris.kealoha.giron@gmail.com?subject=Operations%20help">Email me</a>
       </div>
+      <p class="more">Want the full story first? <a href="https://www.linkedin.com/in/krisgiron" target="_blank" rel="noopener">See my LinkedIn</a></p>
     </section>
   </main>
 
-  <footer>Kris Kealoha Giron · Fractional operations · San Francisco Bay Area</footer>
+  <footer>Kris Kealoha Giron · Fractional operations · San Francisco Bay Area<br>
+    <a class="li" href="https://www.linkedin.com/in/krisgiron" target="_blank" rel="noopener">Connect with me on LinkedIn</a></footer>
 </div>
 </body>
 </html>
